@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="hello">Hello World, PlunderActivity!</string>
+    <string name="app_name">Plunder</string>
+    <string name="warning">Ship incoming</string>
+    <string name="one_one">Plunder is a game of hiding your treasure and discovering your opponents treasure</string>
+    <string name="one_two">Each round you will have 10 treasure...</string>
+    
+    <string name="one_three">to place on satellites</string>
+    <string name="one_four">The more treasure on a satellite...</string><string name="one_five" >... the more it attracts probes</string>
+    <string name="two_one">&lt;TAP THE SATELLITES TO ADD MASS&gt;</string>
+    <string name="two_two">&lt;DRAG YOUR FINGER TO AIM, TAP THE SHIP TO FIRE PROBE&gt;</string>
+    <string name="three_one">You arn\'t alone in space!</string>
+    <string name="three_two"> Your opponent can place things too...</string>
+    <string name="three_three"> but you can\'t see where!</string>
+    <string name="three_four">Projectiles are affected by your gravity and theirs.</string>
+    <string name="three_five">Use this to find where their stash is...</string>
+    <string name="three_six">...and steal it.</string>
+    <string name="four_one">Your opponent has hidden some treasure.</string>
+    <string name="four_two">&lt;FIRE PROBES TO SEE WHERE&gt;</string>
+    <string name="four_three">&lt;TAP SUSPICIOUS SATELLITES TO STEAL FROM THEM&gt;</string>
+    <string name="five_one">Use all this to your advantage.</string>
+    <string name="five_two">Spread out treasure to minimise how much others can steal</string>
+    <string name="five_three">Concentrate it on a few nodes to make them less likely to be found.</string>
+    <string name="five_four">Use gravity to pull their probes away from your satellites.</string>
+    <string name="five_five">use gravity to let your probe cover more ground.</string>
+    <string name="five_six">Use their high value masses to conceal your own. </string>
+    
+    <string name="point_rush_tag">Point Rush</string>
+    <string name="round_rush_tag">Round Rush</string>
+    <string name="point_lead_tag">Point Lead</string>
+    <string name="hidden_tag">Stockpile</string>
+    <string name="point_rush_desc">First to steal 30 points.</string>
+    <string name="point_lead_desc">First to get 10 points ahead.</string>
+    <string name="round_rush_desc">Most points in 10 rounds</string>
+    <string name="hidden_desc">Most points when either player has three 10 point satellites.</string>
+    <string name="ai_on">AI On</string><string name="ai_off">AI Off</string>
+    
+    <string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="phase_one_text_one">   Place </string>
+    <string name="phase_two_text_one">     Fire</string>
+    <string name="phase_three_text_one">     Steal From</string>
+    <string name="phase_one_text_two">  Treasure</string>
+    <string name="phase_two_text_two">    Probe</string>
+    <string name="phase_three_text_two">  Satellite</string>
+
+</resources>

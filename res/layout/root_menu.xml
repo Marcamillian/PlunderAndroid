@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:orientation="vertical">
+        
+        <Button
+            android:id="@+id/tutorial"
+            android:text="Tutorial"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"/>
+        
+        <TextView
+            android:id="@+id/mode_prompt"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:text="Select game mode - "/>
+
+        <LinearLayout
+            android:id="@+id/mode_point_rush"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+            
+            <Button
+           		android:id="@+id/point_rush_play"
+           	 	android:text="Point Rush"
+            	android:layout_height="wrap_content"
+            	android:layout_width="150px"/>
+            
+            <TextView
+            	android:layout_height="wrap_content"
+            	android:layout_width="wrap_content"
+            	android:text="First to steal 30 points"/>
+            
+        	
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/mode_round_rush"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+            
+            <Button
+           		android:id="@+id/round_rush_play"
+           	 	android:text="Round Rush"
+            	android:layout_height="wrap_content"
+            	android:layout_width="150px"/>
+            
+            <TextView
+            	android:layout_height="wrap_content"
+            	android:layout_width="wrap_content"
+            	android:text="Most points in 10 rounds"/>
+            
+        	
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/mode_point_lead"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+            
+            <Button
+           		android:id="@+id/point_lead_play"
+           	 	android:text="Point Lead"
+            	android:layout_height="wrap_content"
+            	android:layout_width="150px"/>
+            
+            <TextView
+            	android:layout_height="wrap_content"
+            	android:layout_width="wrap_content"
+            	android:text="First to get 10 points ahead"/>
+            
+        	
+        </LinearLayout>
+ 
+        <LinearLayout
+            android:id="@+id/mode_hidden"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+            
+            <Button
+           		android:id="@+id/hidden_play"
+           	 	android:text="Hidden and Dangerous"
+            	android:layout_height="wrap_content"
+            	android:layout_width="150px"/>
+            
+            <TextView
+            	android:layout_height="wrap_content"
+            	android:layout_width="wrap_content"
+            	android:text="most points by the time either player gets 10 points on 3 satellites"/>
+            
+        	
+        </LinearLayout>
+        
+    </LinearLayout>
